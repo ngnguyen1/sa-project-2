@@ -1,0 +1,32 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,18092.89,217114.68,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+nga-increased-cost,US East (N. Virginia),Web Server,Amazon EC2 ,0,495.152,5941.82,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 14), Advance EC2 instance (t3.medium), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+nga-increased-cost,US East (N. Virginia),application server,Amazon EC2 ,0,1430.28,17163.36,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 18), Advance EC2 instance (a1.xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+nga-increased-cost,US East (N. Virginia),,Amazon Aurora MySQL-Compatible,0,6216.210000000001,74594.52,USD,,"Aurora MySQL Cluster Configuration Option (Aurora Standard), Change records per statement (0.38), Instance Type (db.r3.4xlarge), Nodes (2), Utilization (100 %Utilized/Month), Instance Family (Memory optimized), Pricing Model (OnDemand), Storage amount (20 TB), Additional backup storage (20 TB)"
+nga-increased-cost,US East (N. Virginia),,Amazon Route 53,0,1588.5,19062.00,USD,,"Hosted Zones (2), Basic Checks Within AWS (1400), Number of Elastic Network Interfaces (10)"
+nga-increased-cost,US East (N. Virginia),,S3 Standard,0,706.56,8478.72,USD,,S3 Standard storage (30 TB per month)
+nga-increased-cost,US East (N. Virginia),,AWS Data Transfer,0,1792,21504.00,USD,,"DT Inbound: Internet (10 TB per month), DT Outbound: Amazon CloudFront (4 TB per month), DT Outbound: Internet (20 TB per month), DT Intra-Region: (0 TB per month), Data transfer cost (1792)"
+nga-increased-cost,US East (N. Virginia),,Application Load Balancer,0,196.69,2360.28,USD,,Number of Application Load Balancers (2)
+nga-increased-cost,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,110.7,1328.40,USD,,Number of NAT Gateways (2)
+nga-increased-cost,US East (N. Virginia),,Amazon CloudWatch,0,34.5,414.00,USD,,Number of Metrics (includes detailed and custom metrics) (115)
+nga-increased-cost,US East (N. Virginia),,Amazon API Gateway,0,350,4200.00,USD,,"REST API request units (millions), Cache memory size (GB) (None), WebSocket message units (thousands), HTTP API requests units (millions), Average size of each request (34 KB), Average message size (32 KB), Requests ( per month), Requests (100 per month)"
+nga-increased-cost,US East (N. Virginia),,Amazon ElastiCache,0,943.89,11326.68,USD,,"Nodes (0), Instance type (cache.r6gd.12xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Cache Engine (Redis), Cache Node Type (Memory optimized), Pricing strategy (OnDemand), Nodes (3), Instance type (cache.r5.xlarge), Cache Engine (Redis), Utilization (On-Demand only) (100 %Utilized/Month), Cache Node Type (Memory optimized), Pricing strategy (OnDemand)"
+nga-increased-cost,US East (N. Virginia),,Amazon Simple Queue Service (SQS),0,131.76,1581.12,USD,,"DT Inbound: Internet (5 TB per month), DT Outbound: Internet (1 TB per month), Data transfer cost (92.16), FIFO queue requests ( million per month), Standard queue requests (100 million per month)"
+nga-increased-cost,US East (N. Virginia),,AWS Web Application Firewall (WAF),0,108,1296.00,USD,,"Number of Web Access Control Lists (Web ACLs) utilized (4 per month), Number of Rules added per Web ACL (10 per month), Number of Rule Groups per Web ACL (4 per month), Number of Rules inside each Rule Group (2 per month)"
+nga-increased-cost,US West (N. California),web server region two,Amazon EC2 ,0,255.522,3066.26,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 6), Advance EC2 instance (t3.medium), Pricing strategy (Compute Savings Plans 1 Year  None upfront), Enable monitoring (disabled), EBS Storage amount (100 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+nga-increased-cost,US West (N. California),application server region two,Amazon EC2 ,0,600.11,7201.32,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 7), Advance EC2 instance (m5a.large), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (100 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+nga-increased-cost,US West (N. California),,AWS Web Application Firewall (WAF),0,25,300.00,USD,,Number of Web Access Control Lists (Web ACLs) utilized (5 per month)
+nga-increased-cost,US West (N. California),,Amazon Simple Queue Service (SQS),0,39.6,475.20,USD,,Standard queue requests (100 million per month)
+nga-increased-cost,US West (N. California),,Amazon ElastiCache,0,350.4,4204.80,USD,,"Nodes (1), Instance type (cache.r5.xlarge), Cache Engine (Redis), Utilization (On-Demand only) (100 %Utilized/Month), Cache Node Type (Memory optimized), Pricing strategy (OnDemand), Nodes (0), Instance type (cache.r6gd.12xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Cache Engine (Redis), Cache Node Type (Memory optimized), Pricing strategy (OnDemand)"
+nga-increased-cost,US West (N. California),,Amazon Aurora MySQL-Compatible,0,2718.02,32616.24,USD,,"Aurora MySQL Cluster Configuration Option (Aurora Standard), Change records per statement (0.38), Instance Type (db.r3.2xlarge), Nodes (1), Utilization (100 %Utilized/Month), Instance Family (Memory optimized), Pricing Model (OnDemand), Storage amount (15 TB)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

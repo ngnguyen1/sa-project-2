@@ -1,0 +1,21 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,7093.05,85116.60,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+Nga Udacity Estimate,US East (N. Virginia),web server,Amazon EC2 ,0,288.63599999999997,3463.63,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 12), Advance EC2 instance (t3.medium), Pricing strategy (EC2 Instance Savings Plans 1 Year  None upfront), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Nga Udacity Estimate,US East (N. Virginia),Application Server,Amazon EC2 ,0,727.146,8725.75,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 14), Advance EC2 instance (a1.xlarge), Pricing strategy (EC2 Instance Savings Plans 1 Year  None upfront), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Nga Udacity Estimate,US East (N. Virginia),my database,Amazon Aurora MySQL-Compatible,0,3835.41,46024.92,USD,,"Aurora MySQL Cluster Configuration Option (Aurora Standard), Change records per statement (0.38), Instance Type (db.r5.2xlarge), Nodes (2), Utilization (100 %Utilized/Month), Instance Family (Memory optimized), Pricing Model (OnDemand), Storage amount (15 TB), Additional backup storage (20 TB)"
+Nga Udacity Estimate,US East (N. Virginia),aws route 53,Amazon Route 53,0,530.5,6366.00,USD,,"Hosted Zones (2), Basic Checks Within AWS (744), Number of Elastic Network Interfaces (2)"
+Nga Udacity Estimate,US East (N. Virginia),my s3,S3 Standard,0,353.28,4239.36,USD,,S3 Standard storage (15 TB per month)
+Nga Udacity Estimate,US East (N. Virginia),aws data transfer,AWS Data Transfer,0,921.6,11059.20,USD,,"DT Inbound: Internet (10 TB per month), DT Outbound: Amazon CloudFront (2 TB per month), DT Outbound: Internet (10 TB per month), DT Intra-Region: (0 TB per month), Data transfer cost (921.6)"
+Nga Udacity Estimate,US East (N. Virginia),my load balancer,Application Load Balancer,0,278.61,3343.32,USD,,Number of Application Load Balancers (2)
+Nga Udacity Estimate,US East (N. Virginia),my vpc,Network Address Translation (NAT) Gateway,0,157.86,1894.32,USD,,Number of NAT Gateways (2)
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

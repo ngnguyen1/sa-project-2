@@ -1,0 +1,22 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,5477.71,65732.52,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+nga estimate reduced,US East (N. Virginia),Web Server,Amazon EC2 ,0,240.53,2886.36,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 10), Advance EC2 instance (t3.medium), Pricing strategy (EC2 Instance Savings Plans 1 Year  None upfront), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+nga estimate reduced,US East (N. Virginia),Application Server,Amazon EC2 ,0,623.268,7479.22,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 12), Advance EC2 instance (a1.xlarge), Pricing strategy (EC2 Instance Savings Plans 1 Year  None upfront), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+nga estimate reduced,US East (N. Virginia),,Amazon Aurora MySQL-Compatible,0,2821.33,33855.96,USD,,"Aurora MySQL Cluster Configuration Option (Aurora Standard), Change records per statement (0.38), Instance Type (db.r5.2xlarge), Nodes (2), Utilization (100 %Utilized/Month), Instance Family (Memory optimized), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (No Upfront), Storage amount (15 TB)"
+nga estimate reduced,US East (N. Virginia),,Amazon Route 53,0,182.5,2190.00,USD,,"Number of Elastic Network Interfaces (2), Hosted Zones (), Basic Checks Within AWS ()"
+nga estimate reduced,US East (N. Virginia),,S3 Standard,0,353.28,4239.36,USD,,S3 Standard storage (15 TB per month)
+nga estimate reduced,US East (N. Virginia),,AWS Data Transfer,0,921.6,11059.20,USD,,"DT Inbound: Internet (10 TB per month), DT Outbound: Amazon CloudFront (2 TB per month), DT Outbound: Internet (10 TB per month), DT Intra-Region: (0 TB per month), Data transfer cost (921.6)"
+nga estimate reduced,US East (N. Virginia),,Application Load Balancer,0,188.5,2262.00,USD,,Number of Application Load Balancers (2)
+nga estimate reduced,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,110.7,1328.40,USD,,Number of NAT Gateways (2)
+nga estimate reduced,US East (N. Virginia),,Amazon CloudWatch,0,36,432.00,USD,,Number of Metrics (includes detailed and custom metrics) (120)
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
