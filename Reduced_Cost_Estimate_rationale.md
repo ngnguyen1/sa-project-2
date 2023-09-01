@@ -9,8 +9,10 @@ None
 
 1. Web Server: number of instances reduced from 12 to 10
 2. Application Server: number of instances also reduced from 14 to 12
-=> Reducing EC2 instances will not have a significant impact on capacity on considering
+
+   => Reducing EC2 instances will not have a significant impact on capacity on considering
 sinc we have autoscaling enabled.
+
 3. Database:
 
    * No need backup storage anymore
